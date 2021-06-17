@@ -4,9 +4,7 @@ const User = require("../models/user.model");
 const { extend } = require("lodash");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-
 const mySecret = process.env['jwt-secret']
-
 
 router.route("/userdetails/:_id")
 .get(async(req,res)=> {

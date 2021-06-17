@@ -8,7 +8,6 @@ const OptionSchema = new Schema({
 })
 
 
-
 const QuestionSchema = new Schema({
     question:String,
     points:Number,

@@ -44,5 +44,4 @@ router.route("/savescore/:userId")
     }
 })
 
-
 module.exports = router;

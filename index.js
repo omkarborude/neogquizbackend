@@ -6,6 +6,7 @@ const quiz = require("./routes/quiz.router")
 const user = require("./routes/user.router")
 const score = require("./routes/score.router") 
 
+
 const app = express();
 
 app.use(bodyParser.json())
